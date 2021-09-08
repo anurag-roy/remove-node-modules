@@ -1,0 +1,19 @@
+{
+  "name": "remove-node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "@types/rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
